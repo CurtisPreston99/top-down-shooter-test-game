@@ -1,0 +1,31 @@
+{
+  "name": "littlejsengine-ts-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo server running on http://localhost:4000/ && webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "cap:run-android": "npm run build && npx cap run android"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-folder-util": "^1.1.6",
+    "copy-webpack-plugin": "^13.0.1",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.4",
+    "littlejsengine": "^1.13.4"
+  }
+}

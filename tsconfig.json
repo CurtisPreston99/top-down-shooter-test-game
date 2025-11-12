@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "sourceMap": true, // Enable source map generation
+        "noImplicitAny": true,
+        "target": "ES6",
+        "module": "nodenext",
+    }
+}
